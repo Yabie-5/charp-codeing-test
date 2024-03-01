@@ -3,19 +3,6 @@ namespace Technical
 {
     using System.Collections.Generic;
 
-    public interface IStaff
-    {
-        void AddProduct(Vegetable vegetable);
-        void PrintProduct();
-    }
-
-    interface IPayment
-    {
-        void PrintProduct();
-        int CalcTotalPrice(int id);
-        void PrintReceipt();
-    }
-
     public class Yaoya : IPayment, IStaff
     {
         private List<Vegetable> products = new List<Vegetable>();
