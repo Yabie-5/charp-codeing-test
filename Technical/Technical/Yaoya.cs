@@ -27,7 +27,7 @@ namespace Technical
 
         public void PrintProduct()
         {
-            if (products.Count >= 0)
+            if (products.Count > 0)
             {
                 foreach(Vegetable item in products)
                 {
