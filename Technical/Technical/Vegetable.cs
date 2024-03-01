@@ -6,12 +6,12 @@ namespace Technical
     {
         public string VegetableName { set; get; }
 
-        public int Value { set; get; }
+        public int Price { set; get; }
 
-        public Vegetable(string vegetableName, int value)
+        public Vegetable(string vegetableName, int price)
         {
             VegetableName = vegetableName;
-            Value = value;
+            Price = price;
         }
 
     }
