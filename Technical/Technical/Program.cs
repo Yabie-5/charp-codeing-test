@@ -13,8 +13,6 @@ namespace Technical
             staff.AddProduct(new Vegetable("きゃべつ", 200));
             staff.AddProduct(new Vegetable("にんじん", 100));
             staff.AddProduct(new Vegetable("じゃがいも", 150));
-            staff.AddProduct(new Vegetable("とまと", 300));
-            staff.AddProduct(new Vegetable("だいこん", 130));
 
             // 商品を購入
             IPayment customer = (IPayment)u1;
