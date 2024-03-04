@@ -38,18 +38,18 @@ namespace Technical
                 customer.PrintReceipt();
 
                 Console.WriteLine("続けて購入しますか？ 続ける:Y、続けない:N\n");
-                string continueFlag = Console.ReadLine();
-                if (continueFlag == "Y")
+                string userInput = Console.ReadLine();
+                if (userInput == "Y")
                 {
                     continue;
                 }
-                else if (continueFlag == "N")
+                else if (userInput == "N")
                 {
                     break;
                 }
                 else
                 {
-                    Console.WriteLine("{0}は無効な入力です.購入を終了します.", continueFlag);
+                    Console.WriteLine("{0}は無効な入力です.購入を終了します.", userInput);
                     break;
                 }
 
