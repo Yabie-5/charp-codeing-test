@@ -34,7 +34,7 @@ namespace Basic
             {
                 case 13:// 閏月の場合は調整.
                     lunarMonth -= 1;
-                    DateTime leapYearDate = new DateTime(lunarYear - 1, lunarMonth, lunarDay);
+                    DateTime leapYearDate = new DateTime(lunarYear, lunarMonth, lunarDay);
                     return leapYearDate;
 
                 default:
